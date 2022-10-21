@@ -4,7 +4,7 @@
 
 use yii\helpers\Html;
 
-$this->title = 'О Нас';
+$this->title = 'О нас';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
@@ -17,6 +17,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <title>О Нас</title>
 </head>
 <body>
-    <p>Добро Пожаловать!</p>
+    <p>Фото</p>
 </body>
 </html>

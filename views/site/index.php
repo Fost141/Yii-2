@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 $this->title = 'Fotocenter';
-// Путь к картинкам указывать относительно корневой папки
+// Путь к картинкам указывать относительно корневой папки - src="/views/site/img/файл"
 ?>
 
 <!DOCTYPE html>
@@ -13,15 +13,23 @@ $this->title = 'Fotocenter';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotocenter</title>
     <style type="text/css">
-        img {
-            width: 200px;
-            height: 200px;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .zagolovok {
+            text-align: center;
+            border: solid 2px black;
         }
     </style>
 </head>
 <body>
-    <h1>Hello World!!!</h1>
-    <img class="Html" src="/views/site/img/!bf4.jpg" alt="">
-    <img class="Html" src="/views/site/img/++.jpg" alt="">
+    <div class="content">
+        <div class="zagolovok">
+            <h1>Галерея</h1>
+        </div>
+    </div>
 </body>
 </html>

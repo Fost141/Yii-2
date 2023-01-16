@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(128, 131, 129);
+}
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    background-color: darkslateblue;
+}
